@@ -1,19 +1,62 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
 
+let beastData = [{
+    "image_url": "http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg",
+    "title": "UniWhal",
+    "description": "A unicorn and a narwhal nuzzling their horns",
+    "keyword": "narwhal",
+    "horns": 1
+  },
+
+  {
+    "image_url": "https://images.unsplash.com/photo-1512636618879-bbe79107e9e3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd9460ee6d1ddbb6b1ca7be86dfc4590&auto=format&fit=crop&w=1825&q=80",
+    "title": "Rhino Family",
+    "description": "Parent rhino with two babies",
+    "keyword": "rhino",
+    "horns": 2
+  },
+  
+  {
+    "image_url": "https://www.dhresource.com/0x0s/f2-albu-g5-M00-1A-11-rBVaI1hsIIiALxKzAAIHjSU3VkE490.jpg/wholesale-halloween-costume-prop-unicorn.jpg",
+    "title": "Unicorn Head",
+    "description": "Someone wearing a very silly unicorn head mask",
+    "keyword": "unicorn", 
+    "horns": 1
+}]
+
+function buildBeasts() {
+    beastData.forEach(beast => {
+        return <HornedBeast 
+                title = {beast.title}
+                imageURL = {beast.image_url}
+                description = {beast.description}
+                keyword = {beast.keyword}
+                horns = {beast.horns}
+            />
+    })
+}
+
 class Main extends React.Component {
     render() {
         return (
             <main>
+                {/* {buildBeasts()} */}
+
                 <HornedBeast 
-                    title = 'Beast 1' 
-                    imageURL = 'https://images.unsplash.com/photo-1601393977410-65950a43f1b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1959&q=80'
-                    description = 'Beast 1'
+                    title = 'UniWhal' 
+                    imageURL = 'http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg'
+                    description = 'A unicorn and a narwhal nuzzling their horns'
                 />
                 <HornedBeast 
-                    title = 'Beast 2' 
-                    imageURL = 'https://images.unsplash.com/photo-1549471013-3364d7220b75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
-                    description = 'Beast 2'
+                    title = 'Rhino Family' 
+                    imageURL = 'https://images.unsplash.com/photo-1512636618879-bbe79107e9e3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd9460ee6d1ddbb6b1ca7be86dfc4590&auto=format&fit=crop&w=1825&q=80'
+                    description = 'Parent rhino with two babies'
+                />
+                <HornedBeast 
+                    title = 'Unicorn Head' 
+                    imageURL = 'https://www.dhresource.com/0x0s/f2-albu-g5-M00-1A-11-rBVaI1hsIIiALxKzAAIHjSU3VkE490.jpg/wholesale-halloween-costume-prop-unicorn.jpg'
+                    description = 'Someone wearing a very silly unicorn head mask'
                 />
             </main>
         );

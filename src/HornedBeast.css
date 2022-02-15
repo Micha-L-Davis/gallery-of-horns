@@ -1,0 +1,10 @@
+.beast {
+    width: 30vw;
+    height: 50vw;
+    margin: 2%;
+}
+
+.beast img {
+    min-height: 40%;
+    padding: 1%
+}

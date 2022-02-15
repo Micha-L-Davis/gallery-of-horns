@@ -18,11 +18,3 @@ main {
   justify-content: center;
   align-items: center;
 }
-
-.beast-image {
-  max-height: 300px;
-}
-
-.beast {
-  margin: 2%;
-}

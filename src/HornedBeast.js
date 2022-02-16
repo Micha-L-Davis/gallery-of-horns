@@ -11,7 +11,16 @@ class HornedBeast extends React.Component {
     }
   }
 
-  handleClick = () => this.setState({ heartCount: this.state.heartCount + 1 })
+  increaseHearts = () => this.setState({ heartCount: this.state.heartCount + 1 })
+
+  selectBeast = (beastIndex) => this.props.handleSelectBeast(beastIndex);
+
+  handleClick = (event) => {
+    event.preventDefault();
+
+    this.increaseHearts();
+    this.selectBeast(this.props.index);
+  }
 
   render() {
     return (

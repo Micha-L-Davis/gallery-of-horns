@@ -51,3 +51,13 @@ Finish time: 2:45pm
 Actual time needed to complete: 1 hr (about 15 min of reading, 30 min of work, and 15 min of troubleshooting)
 
 ---
+
+Number and name of feature: #4 Display a Modal
+
+Estimate of time needed to complete: 45 min
+
+Start time: 1:25pm
+
+Finish time: _____
+
+Actual time needed to complete: _____

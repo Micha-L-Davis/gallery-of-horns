@@ -12,7 +12,8 @@ class App extends React.Component {
     super(props);
     this.state = {
       selectedBeast: 'none',
-      showModal: false
+      showModal: false,
+      filteredData: data
     }
   }
 
@@ -22,6 +23,9 @@ class App extends React.Component {
   };
 
   handleCloseModal = () => this.setState({ showModal: false });
+
+  filterGallery = numHorns => numHorns === 0? this.setState({ filteredData: data }) 
+    : this.setState({ filteredData: data.filter(beast => beast.horns === numHorns)});
 
   render(){
     return (
@@ -34,8 +38,8 @@ class App extends React.Component {
           />
         </Modal>
 
-        <Header />
-        <Main data={data} handleSelectBeast={this.handleSelectBeast}/>
+        <Header filterGallery={this.filterGallery}/>
+        <Main data={this.state.filteredData} handleSelectBeast={this.handleSelectBeast}/>
         <Footer />
       </>
     );

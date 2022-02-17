@@ -1,6 +1,5 @@
 import React from 'react';
-import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row';
+import { Col, Row } from 'react-bootstrap'
 import HornedBeast from './HornedBeast';
 
 class Main extends React.Component {
@@ -9,9 +8,8 @@ class Main extends React.Component {
       <main>
           <Row  xs={1} md={2} lg={3}>
             {this.props.data.map((beast, index) => (
-                <Col>
+                <Col key={index}>
                   <HornedBeast                    
-                    key={index}
                     title={beast.title}
                     index={index}
                     imageURL={beast.image_url}

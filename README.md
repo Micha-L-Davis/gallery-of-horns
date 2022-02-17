@@ -28,36 +28,48 @@ Actual time needed to complete: 5 min
 
 ---
 
-Number and name of feature: #2 Allow users to vote for their favorite beast
+**Number and name of feature:** #2 Allow users to vote for their favorite beast
 
-Estimate of time needed to complete: 15 min
+**Estimate of time needed to complete:** 15 min
 
-Start time: 1:35pm
+**Start time:** 1:35pm
 
-Finish time: 1:44pm
+**Finish time:** 1:44pm
 
-Actual time needed to complete: 14 min
-
----
-
-Number and name of feature: #3 Bootstrap
-
-Estimate of time needed to complete: 25 min
-
-Start time: 1:45pm
-
-Finish time: 2:45pm
-
-Actual time needed to complete: 1 hr (about 15 min of reading, 30 min of work, and 15 min of troubleshooting)
+**Actual time needed to complete:** 14 min
 
 ---
 
-Number and name of feature: #4 Display a Modal
+**Number and name of feature:** #3 Bootstrap
 
-Estimate of time needed to complete: 45 min
+**Estimate of time needed to complete:** 25 min
 
-Start time: 1:25pm
+**Start time:** 1:45pm
 
-Finish time: 2:25
+**Finish time:** 2:45pm
 
-Actual time needed to complete: 60 min
+**Actual time needed to complete:** 1 hr (about 15 min of reading, 30 min of work, and 15 min of troubleshooting)
+
+---
+
+**Number and name of feature:** #4 Display a Modal
+
+**Estimate of time needed to complete:** 45 min
+
+**Start time:** 1:25pm
+
+**Finish time:** 2:25
+
+**Actual time needed to complete:** 60 min
+
+---
+
+**Number and name of feature:** #5 Filter by Number of Horns
+
+**Estimate of time needed to complete:** 45 min
+
+**Start time:** 1:25pm
+
+**Finish time:** 
+
+**Actual time needed to complete:** 

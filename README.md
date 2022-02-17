@@ -70,6 +70,6 @@ Actual time needed to complete: 5 min
 
 **Start time:** 1:25pm
 
-**Finish time:** 
+**Finish time:** 2:05
 
-**Actual time needed to complete:** 
+**Actual time needed to complete:** 40 min

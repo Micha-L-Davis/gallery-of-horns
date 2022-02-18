@@ -8,7 +8,7 @@ class Main extends React.Component {
       <main>
           <Row  xs={1} md={2} lg={3}>
             {this.props.data.map((beast, index) => (
-                <Col key={index}>
+                <Col key={beast.title}>
                   <HornedBeast                    
                     title={beast.title}
                     index={index}
